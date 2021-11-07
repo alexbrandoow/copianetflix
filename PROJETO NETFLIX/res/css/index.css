@@ -1,0 +1,410 @@
+body {
+  background-color: black;
+  background: url(../imagem/fundo1.jpg);
+}
+
+body > header > div.container > div.row > div > div.esquerda {
+  padding: 20px;
+  display: block;
+  width: 130%;
+  text-align: left;
+}
+
+body > header > div.container > div.row > div > div.direita > div.container {
+  padding: 20px;
+  display: block;
+  width: 120%;
+  text-align: right;
+  color: red;
+}
+
+body > header > div.container > div.row > div > div.direita > div.container > div.entrar > button {
+  display: inline-block;
+  color: #FFF;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 17px;
+  font-size: 15px;
+}
+
+body > section.secao1 {
+  padding: 3%;
+  color: white;
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body > section.secao1 > div.container > div.row > div.texto-principal > h1 {
+  display: block;
+  font-size: 3.125rem;
+}
+
+body > section.secao1 > div.container > div.row > div.texto-principal > h2 {
+  display: block;
+  font-size: 1.625rem;
+}
+
+body > section.borda {
+  padding: 10%;
+  border-bottom: 8px solid #222;
+}
+
+body > section.secao2 {
+  text-align: center;
+}
+
+body > section.secao2 > div.container > div.row > div {
+  color: white;
+}
+
+body > section.secao2 > div.container > div.row > div.formulario {
+  display: block;
+  font-size: 1.2rem;
+}
+
+body > section.secao2 > div.container > div.row > div.formulario > form > input {
+  text-align: left;
+  border-radius: 5px;
+  padding: 7px 17px;
+  font-size: 24px;
+  border: none;
+}
+
+body > section.secao2 > div.container > div.row > div.formulario > form > input.erro {
+  background: #4b0000;
+}
+
+body > section.secao2 > div.container > div.row > div.formulario > form > button {
+  display: inline-block;
+  color: #FFF;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 17px;
+  font-size: 25px;
+  min-height: 400;
+}
+
+body > section.secao3 {
+  border-bottom: 8px solid #222;
+  padding: 5%;
+  color: white;
+  text-align: left;
+  background-color: black;
+}
+
+body > section.secao3 > div.container > div.row > div.texto {
+  padding: 50px;
+}
+
+body > section.secao3 > div.container > div.row > div.texto > p {
+  padding: 50px;
+  position: relative;
+  top: 70px;
+}
+
+body > section.secao3 > div.container > div.row > div.texto > p > h1 {
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+body > section.secao3 > div.container > div.row > div.texto > p > h4 {
+  font-size: 15px;
+}
+
+body > section.secao3 > div.container > div.row > div.imagem > img {
+  position: relative;
+  z-index: 10;
+}
+
+body > section.secao3 > div.container > div.row > div > div > video.animation {
+  width: 100%;
+  height: 100%;
+  max-width: 69%;
+  max-height: 45%;
+  position: absolute;
+  top: 18%;
+  left: 15%;
+  z-index: 0;
+}
+
+body > section.secao4 {
+  border-bottom: 8px solid #222;
+  padding: 1px;
+  color: white;
+  text-align: left;
+  background-color: black;
+}
+
+body > section.secao4 > div.container > div.row > div.imagem1 {
+  text-align: center;
+}
+
+body > section.secao4 > div.container > div.row > div.imagem1 > div.down-andamento {
+  border: 2px solid grey;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: black;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  padding: 5px;
+  bottom: 130px;
+}
+
+body > section.secao4 > div.container > div.row > div.imagem1 > div.down-andamento > img {
+  padding: 5px;
+}
+
+body > section.secao4 > div.container > div.row > div.imagem1 > div.down-andamento > div.stranger {
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+body > section.secao4 > div.container > div.row > div.imagem1 > div.down-andamento > div.stranger > h6 {
+  font-size: 20px;
+}
+
+body > section.secao4 > div.container > div.row > div.imagem1 > div.down-andamento > div.stranger > p {
+  font-size: 13px;
+  color: #006eff;
+}
+
+body > section.secao4 > div.container > div.row > div.texto1 {
+  padding: 50px;
+  position: relative;
+  top: 70px;
+}
+
+body > section.secao4 > div.container > div.row > div.texto1 > p > h1 {
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+body > section.secao4 > div.container > div.row > div.texto1 > p > h2 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body > section.secao5 {
+  border-bottom: 8px solid #222;
+  padding: 5%;
+  color: white;
+  text-align: left;
+  background-color: black;
+}
+
+body > section.secao5 > div.container > div.row > div.texto2 {
+  padding: 50px;
+  position: relative;
+  top: 70px;
+}
+
+body > section.secao5 > div.container > div.row > div.texto2 > p > h1 {
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+body > section.secao5 > div.container > div.row > div.texto2 > p > h2 {
+  font-size: 15px;
+}
+
+body > section.secao5 > div.container > div.row > div.imagem2 > img {
+  position: relative;
+  z-index: 10;
+}
+
+body > section.secao5 > div.container > div.row > div > div > video.animation-video {
+  width: 100%;
+  height: 100%;
+  max-width: 68%;
+  max-height: 44%;
+  position: absolute;
+  top: 18%;
+  left: 15%;
+  z-index: 0;
+}
+
+body > section.secao6 {
+  border-bottom: 8px solid #222;
+  padding: 5%;
+  color: white;
+  text-align: left;
+  background-color: black;
+}
+
+body > section.secao6 > div.container > div.row > div.texto3 {
+  padding: 50px;
+}
+
+body > section.secao6 > div.container > div.row > div.texto3 > p > h1 {
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+body > section.secao6 > div.container > div.row > div.texto3 > p > h2 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body > section.secao7 {
+  border-bottom: 8px solid #222;
+  padding: 3%;
+  text-align: center;
+  background-color: black;
+}
+
+body > section.secao7 > div.container > div.row > div.texto > div.titulo > p > h1 {
+  font-size: 40px;
+}
+
+body > section.secao7 > div.container > div.row > div > p > a {
+  padding: .7em 2.2em .8em 1.2em;
+  margin-bottom: 1px;
+  font-weight: 600;
+  position: relative;
+  width: 50%;
+  border: 0;
+  background: #303030;
+  text-align: left;
+}
+
+body > section.secao7 > div.container > div.row > div > p > a {
+  padding: .7em 2.2em .8em 1.2em;
+  margin-bottom: 1px;
+  font-weight: 600;
+  position: relative;
+  width: 50%;
+  border: 0;
+  background: #303030;
+  text-align: left;
+}
+
+body > section.secao7 > div.container > div.row > div > p > a {
+  padding: .7em 2.2em .8em 1.2em;
+  margin-bottom: 1px;
+  font-weight: 600;
+  position: relative;
+  width: 50%;
+  border: 0;
+  background: #303030;
+  text-align: left;
+}
+
+body > section.secao7 > div.container > div.row > div > p > a {
+  padding: .7em 2.2em .8em 1.2em;
+  margin-bottom: 1px;
+  font-weight: 600;
+  position: relative;
+  width: 50%;
+  border: 0;
+  background: #303030;
+  text-align: left;
+}
+
+body > section.secao7 > div.container > div.row > div > p > a {
+  padding: .7em 2.2em .8em 1.2em;
+  margin-bottom: 1px;
+  font-weight: 600;
+  position: relative;
+  width: 50%;
+  border: 0;
+  background: #303030;
+  text-align: left;
+}
+
+body > section.secao7 > div.container > div.row > div > p > a {
+  padding: .7em 2.2em .8em 1.2em;
+  margin-bottom: 1px;
+  font-weight: 600;
+  position: relative;
+  width: 50%;
+  border: 0;
+  background: #303030;
+  text-align: left;
+}
+
+body > section.secao7 > div.container > div.row > div {
+  color: white;
+}
+
+body > section.secao7 > div.container > div.row > div.formulario1 {
+  display: block;
+  font-size: 1.2rem;
+}
+
+body > section.secao7 > div.container > div.row > div.formulario1 > form {
+  text-align: center;
+}
+
+body > section.secao7 > div.container > div.row > div.formulario1 > form > input {
+  text-align: left;
+  border-radius: 5px;
+  padding: 7px 17px;
+  font-size: 24px;
+  border: none;
+}
+
+body > section.secao7 > div.container > div.row > div.formulario1 > form > input.erro {
+  background: #4b0000;
+}
+
+body > section.secao7 > div.container > div.row > div.formulario1 > form > button {
+  display: inline-block;
+  color: #FFF;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 17px;
+  font-size: 25px;
+  min-height: 400;
+}
+
+body > footer {
+  background-color: black;
+  padding: 2%;
+}
+
+body > footer > div.duvidas > div.container > div.row > div.tel > nav.tel > ul {
+  color: #757575;
+}
+
+body > footer > div.duvidas > div.container > div.row > div.tel > nav.tel > ul > a {
+  color: #757575;
+}
+
+body > footer > div.container > div.row > div.baixo > nav.baixo > ul > a {
+  color: #757575;
+}
+
+body > footer > div.container > div.row > div.baixo2 > nav.baixo2 > ul > a {
+  color: #757575;
+}
+
+body > footer > div.container > div.row > div.baixo3 > nav.baixo3 > ul > a {
+  color: #757575;
+}
+
+body > footer > div.container > div.row > div.baixo4 > nav.baixo4 > ul > a {
+  color: #757575;
+}
+
+body > footer > div.copyright > div.container > div.row > div {
+  margin-left: 38px;
+  color: #757575;
+}
+/*# sourceMappingURL=index.css.map */
